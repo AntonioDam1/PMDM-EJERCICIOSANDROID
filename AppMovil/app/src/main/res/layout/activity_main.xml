@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="422dp"
+        android:layout_height="28dp"
+        android:text="Rellene el siguiente formulario"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTextDni"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="DNI"
+        android:inputType="text"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextNumberEdad"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Edad"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextTextProfesion"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:hint="Profesion"
+        android:inputType="text"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextNumberSalario"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Salario"
+        android:inputType="number"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        app:srcCompat="@android:drawable/ic_menu_save" />
+
+</LinearLayout>
